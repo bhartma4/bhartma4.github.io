@@ -1,0 +1,13 @@
+/* start iPhone 16 Pro css values*/
+body.iphone16pro #jim-mobile { position:relative; top:0px; left:0px; width:436px; height:904px; margin:auto; }
+body.iphone16pro #jim-case { background-image: url("../../../../../images/mobile/ios/ios15/iphone16pro@2x.png"); height:904px; width:436px; background-size:100% auto; z-index:100; /*must be over keyboards and comment bubbles*/ position:absolute; pointer-events:none; }
+body.iphone16pro #jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+body.iphone16pro #jim-mobile .ui-page { overflow:hidden; }
+
+/* orientation values */
+body.iphone16pro #jim-mobile.landscape { height:436px; width:904px; }
+body.iphone16pro #jim-case.portrait { transform:rotate(0deg); transform-origin:auto; }
+body.iphone16pro #jim-case.landscape { top:-2px; left:3px; transform:rotate(-90deg); transform-origin: 56.85% 24.98% 0; }
+body.iphone16pro #jim-container { clip-path: inset(0px round 50px); }
+body.iphone16pro #jim-container.portrait { position: absolute; top: 15px; left: 17px; width: 402px; height: 874px; }
+body.iphone16pro #jim-container.landscape { position: absolute; top: 23px; left: 10px; width: 874px; height: 402px; }

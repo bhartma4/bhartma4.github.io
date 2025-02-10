@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Roboto_47.0.0_google";
+  src: url("../../../fonts/Roboto-Bold_47.0.0_google.ttf");
+  font-weight: 700; 
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat_29.0.0_google";
+  src: url("../../../fonts/Montserrat-Extralight_29.0.0_google.ttf");
+  font-weight: 200; 
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat_0.0.0_system";
+  src: url("../../../fonts/Montserrat-SemiBold.ttf");
+  font-weight: 600; 
+  font-display: swap;
+}
